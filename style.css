@@ -1,0 +1,150 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body { 
+  margin: 0px;
+  padding-top: 70px;
+}
+
+#print-header {
+  display:none;
+}
+
+
+.navbar {
+/*   background-color:white;
+  color: red; */
+    border-bottom: 5px solid #5E20C1;
+    position: fixed;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero {
+  padding: 4% 10%;
+  color: black;
+  font-size: 1.2em;
+}
+
+.hero-objective {
+  border-bottom: 5px solid #C6175D;
+}
+
+.hero-experience {
+  border-bottom: 5px solid #1BB584;
+}
+
+.hero-projects, 
+.hero-skills{
+  border-bottom: 5px solid #0B78C1;
+}
+
+.hero a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.hero a:hover {
+  color: #C6175D;
+  text-decoration: underline;
+}
+
+.position-dates {
+  float: right;
+}
+
+.basics,
+.project-title {
+  font-weight: bolder;
+}
+
+.position {
+  margin-bottom: 40px
+}
+
+.title {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+ul.prior-positions, 
+ul.project-buttons, 
+ul.project-list {
+  list-style-type:none;
+  padding-left: 0px;
+  width: 100%;
+  display:inline-block;
+}
+
+.project {
+  margin: 20px auto;
+}
+
+.position-description {
+  list-style-type: square;
+}
+
+.project-buttons button {
+  float:left;
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+.project-buttons button a {
+  text-decoration: none;
+}
+
+.company,
+.project-title {
+  font-size: 1.2em;
+}
+
+.section-wrapper {
+  max-width: 850px
+}
+
+
+/* Projects Page */
+
+
+#projects {
+  display: flex;
+  margin-top: 100px;
+}
+
+/* #projects:nth-child(4n+0) {
+    background: #C6175D;
+}
+#projects:nth-child(4n+1) {
+    background: #1BB584;
+}
+#projects:nth-child(4n+2) {
+    background: #5E20C1;
+}
+#projects:nth-child(4n+3) {
+    background: #0B78C1;
+} */
+
+
+.project-tile {
+  display:flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.project-tile iframe {
+  height: 600px;
+  width: 90%;
+  border: 2px solid red;
+  margin: auto
+}
