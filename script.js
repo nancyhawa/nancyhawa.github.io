@@ -26,7 +26,6 @@ $(function() {
       
       for (let i=0; i < 300; i++){
         let random = Math.floor(Math.random()*(squares.length));
-        console.log(random)
         let $element = $(squares[random]) 
         let randomTime = Math.floor(Math.random()*3000);
         
