@@ -50,12 +50,17 @@ body {
 #title p {
   color: #381A36;
   line-height: 150%;
-  margin: 150px;
+  width: 300px;
 }
 
 #title a, #title a:visited, #title a:hover {
   text-decoration: none;
   color: #381A36;
   font-weight: bold;
+}
+
+#paragraph-container {
+  display: flex;
+  justify-content: space-around;
 }
 

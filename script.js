@@ -1,6 +1,8 @@
 $(function() {
     let square = '<div class="square"></div>'
-    for (let x=0; x < 10000; x++) {
+    let screenWidth = $('body').width();
+    let squareCount = (screenWidth / 10 ) * 100;
+    for (let x=0; x < squareCount; x++) {
       $('#squares').append(square)
     }
   
