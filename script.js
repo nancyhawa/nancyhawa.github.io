@@ -1,7 +1,9 @@
 $(function() {
     let square = '<div class="square"></div>'
-    let screenWidth = $('body').width();
-    let squareCount = (screenWidth / 10 ) * 70;
+    let screenWidth = $(window).width()
+    let screenHeight = $(window).height();
+    console.log(screenHeight)
+    let squareCount = (screenWidth / 10 ) * (screenHeight / 10);
     let activeSquareCount = squareCount/30
     for (let x=0; x < squareCount; x++) {
       $('#squares').append(square)
