@@ -12,6 +12,13 @@ body {
   height: 100%;
 }
 
+:root {
+  --text: #4d4d4d;
+  --square1: #90E0F3;
+  --square2: #B8B3E9;
+  --square3: #D999B9;
+}
+
 .square {
   background-color: white;
   height: 10px;
@@ -20,15 +27,15 @@ body {
 }
 
 .square.pink {
-  background-color: #C6D8D3;
+  background-color: var(--square1);
 }
 
 .square.yellow {
-  background-color: #D81E5B;
+  background-color: var(--square2);
 }
 
 .square.orange {
-  background-color: #F0544F;
+  background-color: var(--square3);
 }
 
 #title {
@@ -43,19 +50,19 @@ body {
 }
 
 #title h1 {
-    color: #381A36;
+    color: var(--text);
     font-size: 5em;
 }
 
 #title p {
-  color: #381A36;
+  color: var(--text);
   line-height: 150%;
   width: 300px;
 }
 
 #title a, #title a:visited, #title a:hover {
   text-decoration: none;
-  color: #381A36;
+  color: var(--text);
   font-weight: bold;
 }
 
